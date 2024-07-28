@@ -9,7 +9,7 @@ import 'package:docx_to_text/docx_to_text.dart';
 import 'package:file_picker/file_picker.dart';
 
 class SummaryService {
-  final String apiKey = 'AIzaSyBC1mkNxyEyEFrByHho9WoUeyDLLHmttrk';
+  final String apiKey = '';
   final String modelName = 'gemini-pro';
 
 Future<String> summarizeDocument(PlatformFile file, double summaryLength, int detailLevel) async {
